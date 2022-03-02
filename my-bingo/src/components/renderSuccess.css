@@ -1,0 +1,33 @@
+.bingo{
+    color: black;
+    font-weight: 900;
+    font-size: 400%;
+    text-align: center;
+    margin: 10px;
+
+}
+@media screen and (min-width: 360px) and (max-width : 720px) { 
+    .bingo{
+        color: black;
+        font-weight: 900;
+        font-size: 140%;
+        text-align: center;
+        margin: 10px;
+    
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .bingo{
+        color: black;
+        font-weight: 900;
+        font-size: 240%;
+        text-align: center;
+        margin: 10px;
+    
+    }
+
+}
+

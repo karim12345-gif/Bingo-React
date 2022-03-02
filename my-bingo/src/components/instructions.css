@@ -1,0 +1,240 @@
+.instructions {
+  width: 800px;
+  height: 600px;
+  margin: -40px 20px;
+}
+
+.head {
+  border-bottom: 2px solid black;
+  text-align: left;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.intro {
+  font-size: medium;
+  cursor: pointer;
+  text-align: left;
+  font-weight: bold;
+}
+
+.lists {
+  text-align: left;
+  cursor: pointer;
+  font-size: large;
+  line-height: 1.9em;
+  margin-bottom: 1.5em;
+}
+
+.title1 {
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.title2 {
+  font-size: medium;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.congrats {
+  text-align: left;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.author {
+    text-align: left;
+    margin:50px 10px;
+    font-weight: 500;
+}
+
+strong{
+    color: blue;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+@media screen and (min-width: 360px) and (max-width : 720px) { 
+  .instructions {
+    width: 300px;
+    height: 600px;
+    margin: 40px 20px;
+  }
+  
+  .head {
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  .intro {
+    font-size: medium;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .lists {
+    text-align: left;
+    cursor: pointer;
+    font-size: large;
+    line-height: 1.9em;
+    margin-bottom: 1.5em;
+  }
+  
+  .title1 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .title2 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .congrats {
+    text-align: left;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .instructions {
+    width: 800px;
+    height: 600px;
+    margin: 40px 20px;
+  }
+  
+  .head {
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  .intro {
+    font-size: medium;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .lists {
+    text-align: left;
+    cursor: pointer;
+    font-size: large;
+    line-height: 1.9em;
+    margin-bottom: 1.5em;
+  }
+  
+  .title1 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .title2 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .congrats {
+    text-align: left;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: medium;
+  }
+  
+  .author {
+      text-align: left;
+      margin:50px 10px;
+      font-weight: 500;
+  }
+  
+  strong{
+      color: blue;
+      cursor: pointer;
+      font-weight: 900;
+  
+  }
+
+
+}
+
+
+/* Done */
+ @media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+  .instructions {
+    width: 290px;
+    height: 600px;
+    margin: -10px 20px;
+  }
+  
+  .head {
+    border-bottom: 2px solid black;
+    text-align: left;
+    font-size: large;
+    cursor: pointer;
+    margin: -10px;
+  }
+  .intro {
+    font-size: medium;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+  } 
+  
+  .lists {
+    text-align: left;
+    cursor: pointer;
+    font-size: small;
+    line-height: 1.9em;
+    margin-bottom: 1.9em;
+  }
+  
+  .title1 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .title2 {
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .congrats {
+    text-align: left;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: medium;
+  }
+   
+  .author {
+      text-align: left;
+      margin:50px 10px;
+      font-weight: 500;
+  }
+  
+  strong{
+      color: blue;
+      cursor: pointer;
+      font-weight: 900;
+  
+  }
+
+} 
