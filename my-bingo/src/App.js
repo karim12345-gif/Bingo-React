@@ -114,6 +114,7 @@ var wonSeries = [[], [], [], [], []];
     );
   }
 
+  //  checking and returning the won result
   const handleOnclick = (id) => {
       setState((state) => {
         const checked = { ...state.checked, [id]: !state.checked[id] };
